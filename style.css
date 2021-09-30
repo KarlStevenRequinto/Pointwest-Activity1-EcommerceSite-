@@ -262,7 +262,7 @@ h4 {
 }
 .ordersection_productbox {
     padding: 10px 40px;  
-    background-color: cadetblue;
+    
     width: 1000px;
 }
 .ordersection_box h1 {
@@ -304,25 +304,46 @@ h4 {
     align-items: center;
 }
 .rightbox {
-    background-color: blue;
+    border: 2px solid white;
     margin: 50px;
     text-align: center;
     width: 500px;
-    
+    height: 550px;
     text-align: left;
     padding: 10px;
 }
 .rightbox input {
     color: black;
-    padding: 10px;
-    
+    padding: 10px; 
+}
+
+.infobox input {
+    width: 400px;
 }
 .payment_titlebox {
-    text-align: center;
+    text-align: left;
     margin: 20px;
     font-size: 20px;
 }
 .inputbox {
     text-align: left;
     padding: 20px 0px;
+    
+}
+
+.infobox {
+    text-align: left;
+    padding: 10px 0px;
+    font-family:sans-serif; 
+}
+
+.rightbox button {
+    margin-top: 20px;
+    width: 150px;
+    height: 30px;
+    font-size: 20px;
+    font-family: monospace;
+    color: black;
+    
+
 }
