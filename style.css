@@ -308,17 +308,21 @@ h4 {
     margin: 50px;
     text-align: center;
     width: 500px;
-    justify-content: center;
-    align-items: center;
+    
     text-align: left;
+    padding: 10px;
 }
 .rightbox input {
     color: black;
-}
-.agebox {
-    background-color: blueviolet;
-    width: 300px;
-    text-align: left;
+    padding: 10px;
     
 }
-
+.payment_titlebox {
+    text-align: center;
+    margin: 20px;
+    font-size: 20px;
+}
+.inputbox {
+    text-align: left;
+    padding: 20px 0px;
+}

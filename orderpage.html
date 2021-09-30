@@ -88,25 +88,38 @@
             </div> 
             <div class="rightbox">
                 <form action="#">
-                        <h2>Pay Now Sabog Later</h2>
-                        <label for="Mode Of Payment">Mode of Payment:</label><br>
-                        <input type="text" name="mode_of_payment" id="modeofpayment"><br>
-                
+                        <div class="payment_titlebox">
+                            <h2>Pay Now Sabog Later</h2>
+                        </div>
+                        <div class="infobox">
+                            <label for="Mode Of Payment">Mode of Payment:</label><br>
+                            <input type="text" name="mode_of_payment" id="modeofpayment"><br>
+                        </div>  
+
+                        <div class="infobox">
                         <label for="Name">Name:</label><br>
                         <input type="text" name="name" id="nameofbuyer"><br>
+                        </div>    
 
+                        <div class="infobox">
                         <label for="Name">Address:</label><br>
                         <input type="text" name="address" id="addressofbuyer"><br>
-                    <div class="agebox">       
-                        <label>AGE:</label><br>
-                        <input type="radio"name="under_seven">
-                        <label for="seven_under">Under 7 yr old?</label><br>
-                        <input type="radio"name="over_seven">
-                        <label for="seven_over">7 or Older</label><br>
-                    </div> 
+                        </div>   
+
+                        <div class="inputbox">  
+                            <label>AGE:</label><br>
+                            <input type="radio"name="buyage">
+                            <label for="seven_under">Under 7 yr old?</label><br>
+                            <input type="radio"name="buyage">
+                            <label for="seven_over">7 or Older</label><br>
+                        </div>
+
+                        <small>Please read our terms and condition kung ayaw mong ma scam ka namin.</small><br>
+                        <input type="checkbox"name="termsandcondition">
+                        <label for="check">I accept the terms and conditions</label><br>
+
                         <button type="submit">Submit</button>  
 
-                        
                 </form>
             </div>
         </div>
