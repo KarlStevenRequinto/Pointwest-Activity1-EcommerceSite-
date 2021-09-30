@@ -253,3 +253,72 @@ h4 {
     border: 2px solid black;
     color: black;
 }
+
+/*----------------------------------- ORDERING PAGE -----------------------------------*/
+.ordersection_box {
+    padding: 20px;
+    background-color:rgb(41, 41, 41); 
+    
+}
+.ordersection_productbox {
+    padding: 10px 40px;  
+    background-color: cadetblue;
+    width: 1000px;
+}
+.ordersection_box h1 {
+    font-size: 100px;
+}
+.mainbox {
+    display: flex;
+}
+.box1 img {
+    width: 500px;
+    height: 400px;
+}
+.quantitybox {
+    width: 500px;
+    margin-left: 40px;
+    
+}
+.quantitybox h1{
+    font-size: 30px;
+    margin: 10px 0px;
+}
+.quantitybox h2{
+    font-size:30px;
+    margin: 10px 0px;
+}
+.quantitybox select {
+    width: 200px;
+    height: 50px;
+    margin: 20px 0px;
+}
+.quantitybox button {
+    width: 150px;
+    height: 50px;
+    margin-top: 10px;
+}
+.box1 {
+    display: flex;
+    margin-top: 50px;
+    align-items: center;
+}
+.rightbox {
+    background-color: blue;
+    margin: 50px;
+    text-align: center;
+    width: 500px;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+}
+.rightbox input {
+    color: black;
+}
+.agebox {
+    background-color: blueviolet;
+    width: 300px;
+    text-align: left;
+    
+}
+
