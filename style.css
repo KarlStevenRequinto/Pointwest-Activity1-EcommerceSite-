@@ -53,34 +53,42 @@ a {
 }
 /* -- SEARCH BAR --*/
 .searchbox {
-    background-color: rgb(133, 133, 133);
+    border: cornsilk 1px solid;
     align-items: center;
     border-radius: 30px;
     height: 40px;
-    padding: 5px;
+    padding: 10px;
+    justify-content: center;
+    display: flex;
+    outline: none;
 }
 .searchbox input {
     width: 200px;
     color: rgb(255, 255, 255);
     float: left;
-    border: none;
-    background: none;
     font-size: 18px;
     transition: 0.4s;
-    line-height: 30px;
     border-radius: 30px;
-    text-decoration: none;
-}
-.searcharea i {
-    float: right;
     background: none;
+    border: none;
+}
+
+.searchbox input:focus {
+    border: none;
+    outline: none;
+}
+.searcharea {
+    float: right;
     border-radius: 50%;
     display: flex;
+    border: none;
     justify-content: center;
     align-items: center;
-    border: none;
-    
 }
+.searchbox input::placeholder {
+    color: blanchedalmond;
+}
+
 /*------- END OF NAV BAR SECTION -------*/
 
 /*------- WELCOME NOTE SECTION -------*/
